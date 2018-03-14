@@ -3,6 +3,7 @@
 int main(void)
 {
 	int n,i,a,b,c;
+	clrscr();
 	printf("enter the number:");
 	scanf("%d",&n);
 	for(i=1;i<=n;i++)
@@ -16,6 +17,6 @@ int main(void)
 	}
 	c=pow(2,b);
 	printf("\n%d",c);
-	
+	getch();
 	return 0;
 }
